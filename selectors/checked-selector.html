@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checked Selectors</title>
+    <style>
+     #hide:checked~img{
+        /* display:none; */
+        opacity: 0;
+     }
+     img{
+        transition-duration:5s;
+     }
+    </style>
+</head>
+<body>
+    <h2>Checked Selector</h2>
+    <input type="radio" id="hide" name="grp">
+    <label for="">Hide</label>
+    <input type="radio" id="show" name="grp">
+    <label for="">Show</label>
+    <br><br>
+    <img src="https://i.pinimg.com/originals/5b/ac/09/5bac099c19b6fb43a3936e260b4cb343.png"/>
+</body>
+</html>

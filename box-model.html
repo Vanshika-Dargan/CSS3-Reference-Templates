@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            /* to adjust in height rather than width */
+            box-sizing:border-box;
+            /* Chrome, Brave, Safari */
+            -webkit-box-sizing: border-box;
+            /* Firefox */
+            -moz-box-sizing: border-box;
+             /* IE */
+            -ms-box-sizing: border-box;
+            /* Opera */
+            -moz-box-sizing: border-box;
+            /*These are called prefix properties*/
+        }
+        .col{
+          width:33%;
+          border:1px solid black;
+          padding:20px;  
+          display:inline-block; 
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col">
+            <h2>First Column</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat expedita est voluptates necessitatibus, tempore cupiditate aspernatur eveniet facilis quia repudiandae quasi cum, dolorem suscipit fugit corrupti laboriosam, nulla commodi?</p>
+        </div>
+        <div class="col">
+            <h2>Second Column</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat expedita est voluptates necessitatibus, tempore cupiditate aspernatur eveniet facilis quia repudiandae quasi cum, dolorem suscipit fugit corrupti laboriosam, nulla commodi?</p>
+        </div>
+        <div class="col">
+            <h2>Third Column</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat expedita est voluptates necessitatibus, tempore cupiditate aspernatur eveniet facilis quia repudiandae quasi cum, dolorem suscipit fugit corrupti laboriosam, nulla commodi?</p>
+        </div>
+    </div>
+</body>
+</html>
