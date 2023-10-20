@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            /* Global variables */
+           /* var(--name,val) */
+           --heading-color:orange;
+           --heading-font-size:10px;
+           --heading-font-weight:bold;
+        }
+        div{
+            /* height:90vh; */
+            border: 7px solid black;
+            /* width:100%; */
+            /* width:90vw; */
+            height:50vmin;
+            width:90vmax;
+            font-size:16px;
+        }
+        div{
+            /* local variable */
+            --mycolor:blue;
+        }
+        h2{
+            color:var(--heading-color);
+            background-color:var(--mycolor) ;
+        }
+        h3{
+            font-size: var(--heading-font-size);
+            color:var(--heading-color);
+        }
+        h4{
+            background-color: var(--heading-color);
+        }
+        h5{
+            /* no effect */
+            background-color:var(--mycolor) ;
+        }
+    </style>
+</head>
+<body>
+    <h5>I am h5</h5>
+    <h4>I am h4</h4>
+    <div>
+        <h2>Heading</h2>
+        <h3>Hello</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolorem, quia, alias cum similique id aut iste, molestiae deserunt minima cupiditate nisi asperiores atque recusandae voluptatum rem perspiciatis sunt vero.</p>
+    </div>
+</body>
+</html>

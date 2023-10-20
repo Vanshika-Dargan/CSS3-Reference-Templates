@@ -1,0 +1,22 @@
+Units:
+
+In CSS2, we are already familiar with
+pixels
+1em = 16 pixels
+
+absolute:
+pixels 1 px
+centimeter 1 cm =37.8 px
+millimeter 1 mm=1/10 th of cm
+inch 1 in= 96px
+pica 1 pc=1/6th of 1 inch
+point 1 pt=1/72 of 1 inch
+
+relative:
+percentage
+em relative
+rem root
+vh viewport height
+vw viewport width
+vmin viewport min height/width
+vmax viewport max height/width
