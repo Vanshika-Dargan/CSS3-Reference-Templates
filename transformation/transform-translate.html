@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate</title>
+    <style>
+        div{
+            border: 2px solid black;
+        }
+        div:hover img{
+            /* transform:translateX(500px); */
+            /* transform:translateY(500px); */
+            /* transform:translate(500px,500px); */
+            /* transform:translate(500px,300px) rotateX(360deg) rotateY(120deg); */
+            /* transform:translate(300px,200px) rotate(360deg); */
+            /*scale(1,1) is normal or default*/
+            /* transform:translate(200px,500px) scale(1.5,2) */
+            transform:translate(500px,500px) skew(45deg,90deg);
+        }
+        img{
+           transition-duration:4s;
+            width:20%;
+            height:20%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="images/dragon.gif" alt="">
+    </div>
+</body>
+</html>

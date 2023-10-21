@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <style>
+        #slideshow{
+            height:calc(100vh - 200px);
+            border:2px solid black;
+            background-size: 100% 100%;
+            background-image: url("https://cdn.pixabay.com/photo/2019/07/25/17/09/camp-4363073_1280.png");
+            animation:slide-show 10s infinite linear;
+        }
+        @keyframes slide-show {
+            0%,15%{
+                background-image: url('https://pixabay.com/vectors/mountains-landscape-nature-travel-8314422/');
+            }
+            15%,35%{
+                background-image: url('https://cdn.pixabay.com/photo/2021/11/04/16/19/travel-6768660_1280.png');
+            }
+            35%,75%{
+                background-image: url('https://cdn.pixabay.com/photo/2023/10/14/09/20/mountains-8314422_1280.png');
+            }
+          75%,95%{
+            background-image: url('https://cdn.pixabay.com/photo/2019/08/11/15/48/road-trip-4399206_1280.png');
+          }
+        }
+    </style>
+</head>
+<body>
+    <div id="slideshow">
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perspective</title>
+    <style>
+        div{
+         height:300px;
+         width:500px;
+         margin:0 auto;
+         border: 2px solid red;
+         perspective: 300px;
+        }
+        img{
+            transform-origin: left;
+            transition-duration: 5s;
+            width:100%;
+            height:inherit;
+        }
+        div:hover img{
+            transform:rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://static01.nyt.com/images/2022/09/01/business/00roose-1/merlin_212276709_3104aef5-3dc4-4288-bb44-9e5624db0b37-superJumbo.jpg" alt="">
+    </div>
+</body>
+</html>
