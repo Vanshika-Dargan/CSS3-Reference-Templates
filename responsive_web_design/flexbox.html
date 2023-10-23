@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box</title>
+    <style>
+        .row{
+            display:flex;
+            /* justify content does things horizontally*/
+            /* justify-content: center; */
+            /* justify-content: flex-start; */
+            /* justify-content: flex-end; */
+            /* justify-content:space-around; */
+            /* justify-content: space-between; */
+            /* justify-content:space-evenly; */
+            /* align items does things vertically*/
+            /* align-items: flex-start; */
+            /* align-items:flex-end; */
+            /* align-items:stretch; */
+            /* align-items:center; */
+            /* align-items:baseline; */
+            /* flex-direction: column; */
+            /* flex-direction:column-reverse; */
+            /* flex-direction: row-reverse; */
+        }
+        .col{
+            width:25%;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        .col-1{
+        flex:1;
+        }
+        .col-2{
+        flex:3;
+        align-self:center;
+        }
+        .col-3{
+        flex:1;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col col-1">
+        <h2>Column 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias ad enim. Itaque labore corporis quos tempora id praesentium dolorem. Cupiditate veniam sapiente ullam suscipit officia doloribus accusantium consectetur. Voluptatibus?
+        Velit, repellat, vel quasi rerum nisi voluptatem ab adipisci exercitationem sit voluptas temporibus voluptatum eveniet! Pariatur esse labore, dignissimos ad neque laboriosam ex, natus rerum assumenda molestias facere dolore dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aliquam dolor alias libero, eos sequi laboriosam autem ex dicta quos perspiciatis culpa. Tempora, eaque distinctio nihil praesentium repellendus velit inventore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae nobis, unde dolore perspiciatis, nam aut id eaque laboriosam sunt voluptatum magni quod harum veniam officiis laudantium autem ullam perferendis amet!</p>
+      </div>
+      <div class="col col-2">
+        <h2>Column 2</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error voluptate quod exercitationem fugiat dolore dolor facilis quasi sequi repellendus unde eius libero asperiores maiores incidunt ad, quis autem quos tempore.</p>
+      </div>
+      <div class="col col-3">
+        <h2>Column 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, voluptas earum rerum distinctio a ut quisquam error atque perferendis amet velit, sit ipsam ducimus obcaecati! Natus eos facere assumenda provident?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde eius, voluptatem dignissimos consequuntur nostrum odio placeat sequi ullam corrupti architecto commodi enim officiis nesciunt. Corrupti cupiditate inventore voluptatibus adipisci illo!</p>
+      </div>
+    </div>
+  </body>
+</html>

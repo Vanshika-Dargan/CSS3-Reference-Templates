@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .row{
+            display:grid;
+            grid-template-columns: repeat(3,25%);
+          /* gap:50px; */
+          /* row-gap:35px;
+          column-gap: 50px; */
+        }
+        .col{
+            border:2px solid black;
+            padding:10px;
+            margin:20px;
+        }
+        .col-2{
+            /* grid-column-start: 2;
+            grid-column-end: 4; */
+            grid-column: 2/4;
+        }
+        .col-7{
+            grid-column: 1/7;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col col-1">
+            <h2>Column 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis magnam expedita delectus animi quos molestiae ab provident consequatur excepturi aspernatur doloribus quaerat recusandae rem asperiores, aperiam mollitia similique? Quae!</p>
+        </div>
+        <div class="col col-2">
+            <h2>Column 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis magnam expedita delectus animi quos molestiae ab provident consequatur excepturi aspernatur doloribus quaerat recusandae rem asperiores, aperiam mollitia similique? Quae!</p>
+        </div>
+        <div class="col col-3">
+            <h2>Column 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis magnam expedita delectus animi quos molestiae ab provident consequatur excepturi aspernatur doloribus quaerat recusandae rem asperiores, aperiam mollitia similique? Quae!</p>
+        </div>
+        <div class="col">
+            <h2>Column 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis magnam expedita delectus animi quos molestiae ab provident consequatur excepturi aspernatur doloribus quaerat recusandae rem asperiores, aperiam mollitia similique? Quae!</p>
+        </div>
+        <div class="col">
+            <h2>Column 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis magnam expedita delectus animi quos molestiae ab provident consequatur excepturi aspernatur doloribus quaerat recusandae rem asperiores, aperiam mollitia similique? Quae!</p>
+        </div>
+        <div class="col">
+            <h2>Column 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis magnam expedita delectus animi quos molestiae ab provident consequatur excepturi aspernatur doloribus quaerat recusandae rem asperiores, aperiam mollitia similique? Quae!</p>
+        </div>
+        <div class="col col-7">
+            <h2>Column 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis magnam expedita delectus animi quos molestiae ab provident consequatur excepturi aspernatur doloribus quaerat recusandae rem asperiores, aperiam mollitia similique? Quae!</p>
+        </div>
+    </div>
+</body>
+</html>
