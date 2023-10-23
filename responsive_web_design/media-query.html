@@ -23,12 +23,34 @@
         /* @media all{
 
         } */
-        @media screen{
-            
+        body{
+            background-color: blue;
         }
+        img{
+            width:100%;
+        }
+        /* @media screen and (min-width:768px) and (max-width:1200px){
+            body{
+              background-color: blueviolet;  
+              
+            }
+            img{
+                width:30%;
+            }
+        } */
+        @media (768px<=width<=1200px){
+            body{
+              background-color: blueviolet;  
+              
+            }
+            img{
+                width:30%;
+            } 
+        }
+       
     </style>
 </head>
 <body>
-    
+    <img src="https://img.freepik.com/free-photo/multi-colored-creativity-close-up-human-eye-generated-by-ai_188544-15574.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698019200&semt=sph"/>
 </body>
 </html>
